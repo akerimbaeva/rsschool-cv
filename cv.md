@@ -51,8 +51,8 @@ function fibonacciGenerator (n) {
 
 ### **Work Experience:**
 
- + Some of my student project
-    - https://akerimbaeva.github.io/Drum-Kit-Game-JS/
+ + One of my course projects
+    - [Drum Kit Game Project](https://akerimbaeva.github.io/Drum-Kit-Game-JS/)
 + Gained basic skilles in HTML, CSS, JS and DOM manipulation 
 
 ****
