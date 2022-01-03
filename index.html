@@ -4,9 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>CV Kerimbaeva Anara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Kerimbaeva Anara</h1>
+    <header class="header" >
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li><a href="#contacts" class="nav-link" >Contacts</a></li>
+                    <li><a href="#skills" class="nav-link" >My skills</a></li>
+                    <li><a href="#code" class="nav-link" >Code</a></li>
+                    <li><a href="#projects" class="nav-link" >Projects</a></li>
+                    <li><a href="#education" class="nav-link" >Education</a></li>
+                    <li><a href="#languages" class="nav-link" >Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="profile-section">
+                <img class="profile-image" src="img/avatar.png" alt="profile-image">
+                <div class="profile-name">
+                    <h1>Kerimbaeva Anara</h1>
+                    <p>Junior Front-End Developer</p>
+                </div>
+            </section>
+            <div class="main-wrapper">
+                <div class="left-wrapper">
+                    <section class="about-me-section">
+                        <h2>About me</h2>
+                        <p>I have a keen interest to learn new technologies and frameworks within the Front-End development ecosystem.
+                           I am interested in mathematics and engineering. I am details-oriented, responsible and carry a get-it-done attribute regarding everything.
+                       </p>
+                    </section>
+                    <section class="contacts-section">
+                        <h2>Contact me at:</h2>
+                        <ul>
+                            <li>E-mail</li>
+                            <li>Phone</li>
+                            <li>Discord</li>
+                            <li>Telegram</li>
+                        </ul>
+                    </section>
+                    <section class="skills-section">
+                        <h2>My skills:</h2>
+                        <ul>
+                            <li>Figma</li>
+                            <li>HTML5, CSS, JavaScript</li>
+                            <li>Bootstrap v5</li>
+                            <li>Cit,GitHub</li>
+                            <li>VSCode, Atom</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="right-wrapper">
+                    <section class="code-section">
+                        <h2>Code:</h2>
+                       <code>
+                           <pre>
+                           function fibonacciGenerator (n) {
+                               var array = [0,1];  
+                               if (n === 1) {
+                                  return  [0];
+                              }
+                               if (n === 2) {
+                                  return [0,1];
+                              }
+                               for (var i = 2; i &lt;= n - 1; i++) {
+                                  array[i] = array[i-1] + array[i-2];  
+                              }
+                            return array;
+                           }
+                           </pre>
+                        </code>
+                    </section>
+                    <section class="projects-section">
+                        <h2>Projects</h2>
+                        <ul>
+                            <li>
+                                <a href="https://akerimbaeva.github.io/Drum-Kit-Game-JS/">Drum Kit Game Project</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="education-section">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>Kyrgyz-Russian Slavic University, Major in Mathematical Methods in Economics</li>
+                            <li>JavaScript Courses in ZeroOne Accelerator (completed)</li>
+                            <li>Web Developer course on Udemu (in progress)</li>
+                            <li>RS School JavaScript/Front-End Stage0 (in progress)</li>
+                        </ul>
+                    </section>
+                    <section class="languages-section">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>Russian - Upper Intermediate</li>
+                            <li>English - B2 (IELTS GT6.0)</li>
+                        </ul>         
+                    </section>       
+                </div>
+           </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/akerimbaeva">akerimbaeva</a>
+            <span>2022</span>
+            <img class="rsschool-logo" src="img/rsschool.svg" alt="logo rsshool">
+        </div>
+    </footer>
 </body>
 </html>
