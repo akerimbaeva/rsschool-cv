@@ -17,16 +17,13 @@ h2 {
       margin: 0 auto;
   }
 
+
   /* Header */
 
-  .header {
+  .nav {
     background-color: #d1af96;
     height: 100px;
-    
-}
-
-  .nav {
-      align-items: center;
+    align-items: center;
   }
 
   .nav-list {
@@ -51,6 +48,7 @@ h2 {
   .nav-link:hover {
     color: #fefefe;
 }
+
 
 /* Main */
 
@@ -77,24 +75,23 @@ h2 {
     color: #d1af96;
 }
 
+.right-wrapper {
+    background-color: #f5efec;
+    flex-basis: 67%;
+    padding: 4%;
+}
+
 .profile-heading {
-    /* text-transform: uppercase; */
+    text-transform: uppercase; 
     font-size: 60px;
     color: #413129;
     margin-bottom: 0;
 }
 
 .profile-subtitle {
-    /* text-transform: uppercase; */
     font-size: 30px;
     padding-bottom: 25px;
     color: #d1af96;
-}
-
-.right-wrapper {
-    background-color: #f5efec;
-    flex-basis: 67%;
-    padding: 4%;
 }
 
 .projects-link {
@@ -119,12 +116,9 @@ h2 {
 
 /* Footer */
 
-.footer {
+.footer-wrapper {
     background-color: #d1af96;
     color: #413129;;
-}
-
-.footer-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
